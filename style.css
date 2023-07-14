@@ -1,0 +1,454 @@
+*{
+  padding: 0;
+  margin: 0;
+  }
+  body{
+    font-family: lato;
+  }
+  .main-container{
+  height: 100vh;
+  width: 1123px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background:rgba(181, 56, 83, 0.34);
+  padding-left: 140px;
+  gap: 181px;
+  text-align: left;
+  }
+
+  .header-tag{
+    color: #272727;
+    font-size: 50px;
+    padding-bottom: 20px;
+  }
+  .header-parragraph{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 10px;
+    line-height: 15px;
+    padding-bottom: 20px;
+  }
+  .shopNow-btn{
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 13px;
+    line-height: normal;
+    padding: 15px 30px ;
+    border: none;
+    margin: 0 0 0 0px;
+  }
+  .main-photo{
+  width:420px;
+  padding-top: 84px ;
+  margin-right: 30px;
+  }
+  
+  /* featured section */
+  
+  .featured-section{
+  margin-top: 145px;
+  
+  }
+  .featured-section h1{
+    color: #272727;
+    text-align: center;
+    font-size: 27px;
+  }
+  .featured-section p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 10px;
+    line-height: 14px;
+  font-size: small;
+  padding-top: 10px;
+  }
+  .flower-type{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content:center;
+  margin-top: 40px;
+  gap: 27px;
+  margin-bottom: 50px;
+  margin-right: 54px;
+  }
+  .yellow-flower-tree{
+    width: 280px;
+  height: 255px;
+  
+  padding-top: 30px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  }
+  .red-flower-tree{
+    width: 280px;
+    height: 255px;
+    padding-top: 30px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(246, 8, 8, 0.342);
+  }
+  .pink-flower-tree{
+    width: 280px;
+    height: 255px;
+    padding-top: 30px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+  margin-left:55px;
+  }
+  .pink-flower{
+    width: 170px;
+    padding-top: 20px;
+  
+  }
+  .red-flower{
+    width: 190px;
+    padding-top: 50px;
+  }
+  .yellow-flower{
+    width: 170px;
+  
+  }
+  .tree-name{
+    color: #272727;
+    text-align: center;
+    text-decoration-line: underline;
+  margin-top:20px ;
+  }
+  .tree-namee{
+    color: #272727;
+    text-align: center;
+    text-decoration-line: underline;
+  margin-top:33px ;
+  }
+
+  
+  /* sign up secion */
+  
+  .sign-up-section{
+  
+    width: 100%;
+  height: 340px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 190px;
+  margin-top: 110px;
+  
+  }
+  .rose-flower{
+  width: 200px;
+  
+  }
+  
+  
+  .signup-details{
+  text-align: center;
+  
+  }
+  .signup-details h1{color: #272727;
+  
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 17px;
+  }
+  .signup-details p{
+    color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  margin-bottom: 17px;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  }
+  
+  /* socail media acctivity section */
+  
+  .social-media-activity{
+    margin-top: 120px;
+    margin-right: 54px;
+  
+  }
+  .media-name h1{
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 12px;
+  }
+  .media-name p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+  margin-bottom: 48px;
+  }
+  
+  
+  .media-photo{
+  display: flex;
+  justify-content: center;
+  gap:12px;
+  margin: 0 5px 120px 59px ;
+  
+  }
+  .media-post{
+    width: 215px;
+  }
+
+
+  /* service info section */
+  .service{
+    width: 896px;
+    height: 409px;
+background: #477D1126;
+
+margin: 0 auto;
+display: flex;
+text-align: left;
+align-items: center;
+justify-content: space-around;
+border-radius: 8px;
+}
+
+.redflower-img{
+
+  width: 280px;
+  
+  }
+  .service-info h1{
+  font-size: 40px;
+  color: #8e44ad;
+  
+  }
+  
+.gift-heading{
+  font-size: 30px;
+  padding-top: 30px;
+  color: #e84393;
+  line-height: ;
+    }
+    
+    .gift-heading2{
+  font-size: 30px;
+  color: #E55473;
+  padding-top: 10px; }
+    
+
+
+
+  /* deal search section */
+  
+  .deal-section {
+    background-image: url(images/Rectangle\ 9.png);
+    background-size: cover;
+    background-position: center;
+    width: 896px;
+    height: 349px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  
+  
+  }
+  
+  .bar-heading{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 400px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color:#E55473;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  .bar-heading p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+   margin-top: 5px;
+  
+  }
+  .about-shop{
+    width: 1262px;
+    height:349px;
+    background: #111010;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .about-shop h1{
+  color: white;
+  font-size: 35px;
+  padding-bottom: 13px;
+  
+  }
+  .about-shop p{
+  color: rgba(255, 255, 255, 0.40);
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  
+  .about-shop h6{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    padding-bottom: 15px;
+  }
+ 
+
+
+@media screen and (max-width:576px) {
+ 
+  .main-container {
+    height: 100vh;
+    width: 100%;
+  
+    flex-direction: column;
+   
+    background: rgba(181, 56, 83, 0.34);
+    padding: 0 9px;
+   
+  }
+  
+  .header-tag {
+    color: #272727;
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  
+  .header-parragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .shopNow-btn {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 10px 0;
+  }
+  
+  .main-photo {
+    width:10%;
+    padding-top: 0px;
+    margin-right: 0;
+  }
+  .flower-type{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    margin-top: 40px;
+    gap: 57px;
+    /* margin-bottom: 50px;
+    margin-right: 54px; */
+  }
+.sign-up-section{
+width: 100%;
+height: 100%;
+ background: rgba(229, 84, 115, 0.05);
+ flex-direction: column;
+ gap: 50px;
+   
+    
+    }
+    .media-photo{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .service{
+      width: 80%;
+      height:80%;
+  background: #477D1126;
+  
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 8px;
+  padding: 20PX;
+  }
+  .deal-section {
+    background-image: url(images/Rectangle\ 9.png);
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 150px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color:#E55473;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  .about-shop{
+    width: 100%;
+    height:100%;
+    background: #111010;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+
+}
